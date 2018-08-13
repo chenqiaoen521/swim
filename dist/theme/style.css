@@ -139,12 +139,81 @@ body {
   margin: 0 auto;
   background: #fff;
 }
-.header {
-  background-color: #000;
+.clearfix:after {
+  display: table;
+  content: '';
+  clear: both;
 }
-.header .logo {
+.header_menu {
+  height: 60px;
+  background-color: #111111;
+}
+.header_menu .logo {
+  float: left;
+  width: 66px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 10px;
+  background-color: red;
+}
+.header_menu .nav {
+  float: right;
+  margin-right: 80px;
+  height: 60px;
+}
+.header_menu .nav .menu {
   float: left;
 }
-.header .nav {
-  float: right;
+.header_menu .nav .menu .item {
+  float: left;
+  margin-right: 50px;
+  padding-top: 21px;
+}
+.header_menu .nav .menu .item:last-child {
+  margin-right: 30px;
+}
+.header_menu .nav .menu .item > a {
+  font-size: 14px;
+  color: sw-white-light;
+  line-height: 20px;
+  height: 20px;
+}
+.header_menu .nav .separate {
+  float: left;
+  margin-top: 10px;
+  width: 2px;
+  height: 40px;
+  background-color: #666666;
+}
+.header_menu .nav .tel {
+  float: left;
+  line-height: 60px;
+  font-size: 14px;
+  color: #FFFFFF;
+  height: 60px;
+}
+.header_menu .nav .tel .icon_tel {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background: url(imgs/icon_tel.png) no-repeat center;
+}
+.swiper-container {
+  width: 100%;
+  height: 600px;
+}
+.swiper-container .swiper-wrapper {
+  height: 600px;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 600px;
+}
+.swiper-container .swiper-wrapper .swiper-slide .sw_bg {
+  width: 100%;
+  height: 600px;
 }
