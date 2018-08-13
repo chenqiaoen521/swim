@@ -139,8 +139,3 @@ body {
   margin: 0 auto;
   background: #fff;
 }
-.clearfix:after {
-  display: table;
-  content: '';
-  clear: both;
-}

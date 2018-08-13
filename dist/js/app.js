@@ -9,7 +9,4 @@ $(function(){
       $(window.document.body).removeClass('small_sen').addClass('desktop');
     }
   }
-  var mySwiper = new Swiper ('.swiper-container', {
-    loop: true
-  });
 });
